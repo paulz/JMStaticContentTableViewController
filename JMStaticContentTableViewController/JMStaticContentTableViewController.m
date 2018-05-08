@@ -20,13 +20,6 @@
 
 	[self removeAllSections];
 }
-- (void) viewDidUnload {
-    [super viewDidUnload];
-}
-
-- (void) didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-}
 
 #pragma mark - Table view data source
 
