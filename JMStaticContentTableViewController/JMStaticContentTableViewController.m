@@ -94,10 +94,6 @@
 		cell = [[[cellContent tableViewCellSubclass] alloc] initWithStyle:cellContent.cellStyle reuseIdentifier:cellContent.reuseIdentifier];
     }
 
-	cell.imageView.image = nil;
-	cell.accessoryView = nil;
-	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-
 	cellContent.configureBlock(cellContent, cell, indexPath);
 
     return cell;
